@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Quicksand&family=Raleway:wght@300&display=swap');
+
+body{
+    background-image: url(../assets/first-background.jpg);
+    background-repeat: no-repeat;
+    background-size: 2000px;
+}
+
+
+#main-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#center-img{
+    margin-top: 100px;
+    width: 500px;
+}
+
+#titulo{
+    text-align: center;
+    color: azure;
+    font-family: 'Raleway';
+    font-size: 50px;
+}
+
+#empezar{
+    margin-top: 20px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: cadetblue;
+    color: aliceblue;
+    cursor: pointer;
+    font-family: 'Quicksand';
+    font-size: 18px;
+}
+
+#empezar:hover{
+    color: black;
+    background-color: gold;
+    transition-duration: 1s;
+}

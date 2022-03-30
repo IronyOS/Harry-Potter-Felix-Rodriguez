@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Quicksand&family=Raleway:wght@300&display=swap');
+
+body{
+    background-image: url(../assets/second-background.jpg);
+    background-repeat: no-repeat;
+    background-size: 3000px;
+}
+
+
+#contenido{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ background-color: antiquewhite;
+ border-radius: 20px;
+ margin: 50px 500px 50px 500px;
+ padding-top: 50px;
+ padding-bottom: 50px;
+}
+
+#escudo{
+    size: 7000px;
+    height: 300px;
+}
+#shield{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#img-personaje{
+    border-radius: 50px;
+    width: 500px;
+}
+
+#generate{
+    margin-top: 20px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: cadetblue;
+    color: aliceblue;
+    cursor: pointer;
+    font-family: 'Quicksand';
+    font-size: 18px;
+}
+
+#generate:hover{
+    color: black;
+    background-color: gold;
+    transition-duration: 0.5s;
+}
+
+#personaje{
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 18px;
+}
+
+#casa{
+    font-family: 'Raleway';
+    font-size: 30px;
+    font-weight: bold;
+}
